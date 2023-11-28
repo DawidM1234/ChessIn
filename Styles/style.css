@@ -19,11 +19,11 @@ header > .logo > img {
 }
 
 header > .logo > span {
-  font-size: 64px;
+  font-size: 52px;
   font-style: normal;
   font-weight: 400;
   align-self: center;
-  margin-left: 190px;
+  margin-left: 115px;
 }
 
 header > .login {
