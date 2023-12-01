@@ -73,13 +73,13 @@
           </li>
         </ul>
       </nav>
-      <div class="tournaments">
+      <section class="tournaments">
         <div class="tournament">
           <div class="image">
             <img src="../assets/tournaments/sala_turniejowa.jpg" alt="" />
           </div>
           <div class="info">
-            <h3>Turniej z okazji dnia niepodległości</h3>
+            <h4>Turniej z okazji dnia niepodległości</h4>
             <span>Turniej odbędzie się 10.11.2023</span>
             <p class="format">format czasowy 55+5</p>
           </div>
@@ -89,7 +89,7 @@
             <img src="../assets/tournaments/sala_turniejowa.jpg" alt="" />
           </div>
           <div class="info">
-            <h3>Turniej Klubu XYZ</h3>
+            <h4>Turniej Klubu XYZ</h4>
             <span>Turniej odbędzie się 23.11.2023</span>
             <p class="format">format czasowy 12+3</p>
           </div>
@@ -99,7 +99,7 @@
             <img src="../assets/tournaments/sala_turniejowa.jpg" alt="" />
           </div>
           <div class="info">
-            <h3>Drużynowy turniej szkół ponadpodstawowych</h3>
+            <h4>Drużynowy turniej szkół ponadpodstawowych</h4>
             <span>Turniej odbędzie się 1.12.2023</span>
             <p class="format">format czasowy 90+5</p>
           </div>
@@ -109,7 +109,7 @@
             <img src="../assets/tournaments/sala_turniejowa.jpg" alt="" />
           </div>
           <div class="info">
-            <h3>Drużynowy turniej szkół podstawowych</h3>
+            <h4>Drużynowy turniej szkół podstawowych</h4>
             <span>Turniej odbędzie się 1.12.2023</span>
             <p class="format">format czasowy 55+5</p>
           </div>
@@ -119,7 +119,7 @@
             <img src="../assets/tournaments/sala_turniejowa.jpg" alt="" />
           </div>
           <div class="info">
-            <h3>Mistrzostwa mazowsza w szachach klasycznych</h3>
+            <h4>Mistrzostwa mazowsza w szachach klasycznych</h4>
             <span>turniej odbędzie się 15.12.2023</span>
             <p class="format">format czasowy 60+0</p>
           </div>
@@ -129,7 +129,7 @@
             <img src="../assets/tournaments/sala_turniejowa.jpg" alt="" />
           </div>
           <div class="info">
-            <h3>Mistrzostwa Mazowsza w szachach szybkich</h3>
+            <h4>Mistrzostwa Mazowsza w szachach szybkich</h4>
             <span>turniej odbędzie się 17.12.2023</span>
             <p class="format">format czasowy 15+0</p>
           </div>
@@ -139,7 +139,7 @@
             <img src="../assets/tournaments/sala_turniejowa.jpg" alt="" />
           </div>
           <div class="info">
-            <h3>Turniej świąteczny w klubie xyz</h3>
+            <h4>Turniej świąteczny w klubie xyz</h4>
             <span>Turniej odbędzie się 22.12.2023</span>
             <p class="format">format czasowy 15+0</p>
           </div>
@@ -149,7 +149,7 @@
             <img src="../assets/tournaments/sala_turniejowa.jpg" alt="" />
           </div>
           <div class="info">
-            <h3>Mistrzostwa Polski w szachach klasycznych</h3>
+            <h4>Mistrzostwa Polski w szachach klasycznych</h4>
             <span>Turniej odbędzie się 1.03.2024</span>
             <p class="format">format czasowy 90+5</p>
           </div>
@@ -159,7 +159,7 @@
             <img src="../assets/tournaments/sala_turniejowa.jpg" alt="" />
           </div>
           <div class="info">
-            <h3>Mistrzostwa Polski w szachach szybkich</h3>
+            <h4>Mistrzostwa Polski w szachach szybkich</h4>
             <span>Turniej odbędzie się 3.03.2024</span>
             <p class="format">format czasowy 10+5</p>
           </div>
@@ -169,13 +169,56 @@
             <img src="../assets/tournaments/sala_turniejowa.jpg" alt="" />
           </div>
           <div class="info">
-            <h3>Warszawska olimpiada młodzieży</h3>
+            <h4>Warszawska olimpiada młodzieży</h4>
             <span>Turniej odbędzie się 27.05.2024 </span>
             <p class="format">format czasowy 55+5</p>
           </div>
         </div>
-      </div>
-      <aside></aside>
+      </section>
+      <aside>
+        <h1>Filters</h1>
+        <div class="place">
+          <input type="text" placeholder="Country..." />
+          <input type="text" placeholder="City..." />
+        </div>
+        <section class="ranking">
+          <h2>Ranking</h2>
+          <div class="inputs">
+            <input type="text" placeholder="min. ranking" />
+            <input type="text" placeholder="max. ranking" />
+          </div>
+          <div class="type">
+            <h2>Type</h2>
+              <div class="checkboxes">
+                <input type="checkbox" id="FIDE" class="checkbox" />
+                <label for="FIDE">FIDE</label>
+              </div>
+              <div class="checkboxes">
+                <input type="checkbox" id="Country" class="checkbox" />
+                <label for="Country">Country</label>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="TimeType">
+          <h2>Time Type</h2>
+            <div class="checkboxes">
+              <input type="checkbox" id="Classical" class="checkbox" />
+              <label for="Classical">Classical</label>
+            </div>
+            <div class="checkboxes">
+              <input type="checkbox" id="Rapid" class="checkbox" />
+              <label for="Rapid">Rapid</label>
+            </div>
+            <div class="checkboxes">
+              <input type="checkbox" id="blitz" class="checkbox" />
+              <label for="blitz">blitz</label>
+            </div>
+            <div class="checkboxes">
+              <input type="checkbox" id="bullet" class="checkbox" />
+              <label for="bullet">bullet</label>
+            </div>
+      </aside>
     </main>
   </body>
 </html>

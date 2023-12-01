@@ -6,4 +6,70 @@ aside {
   position: sticky;
   top: 0;
   background-color: #bc4749;
+  align-items: center;
+  gap: 20px;
+}
+
+aside > h1 {
+  font-size: 44px;
+}
+
+.place {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+input {
+  border: 3px solid black;
+  padding: 15px;
+  color: black;
+  border-radius: 30px;
+}
+
+.place > input::placeholder {
+  color: black;
+  font-size: 24px;
+}
+
+.ranking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.ranking > .inputs {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.ranking > .inputs > input {
+  border: 3px solid black;
+  padding: 15px;
+  color: black;
+  border-radius: 10px;
+  width: 100px;
+}
+.ranking > .inputs > input::placeholder {
+  color: black;
+  font-size: 12px;
+}
+
+.type,
+.TimeType {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.type > h2 {
+  font-size: 36px;
+}
+
+.type > .checkboxes > label,
+.TimeType > .checkboxes > label {
+  font-size: 24px;
 }
