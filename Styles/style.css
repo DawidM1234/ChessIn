@@ -6,11 +6,12 @@ header {
   display: flex;
   height: 18vh;
   background-color: #f2e8cf;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
 }
 
 header > .logo {
   display: flex;
-  width: 80vw;
 }
 
 header > .logo > img {
@@ -18,20 +19,19 @@ header > .logo > img {
   margin: 5px;
 }
 
-header > .logo > span {
+header > span {
   font-size: 52px;
   font-style: normal;
   font-weight: 400;
   align-self: center;
-  margin-left: 115px;
 }
 
 header > .login {
-  flex: 1;
   display: flex;
   vertical-align: middle;
   align-items: center;
   flex-direction: column;
+  margin-right: 10px;
 }
 
 header > .login > button {
@@ -76,6 +76,12 @@ main {
   width: 49vh;
   height: 49vh;
   background-color: rgb(213, 213, 213);
+  transition: 0.1s;
+}
+
+.tournament:hover {
+  transform: scale(1.01);
+  transition: 0.2s;
 }
 
 .tournament > .image {

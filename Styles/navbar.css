@@ -6,6 +6,7 @@
   position: sticky;
   top: 0;
   background-color: #6a994e;
+  border-right: 2px solid black;
 }
 
 .navbar > ul {
@@ -28,4 +29,13 @@
 
 .navbar > ul > li > a > img {
   width: 30px;
+}
+
+.navbar > ul > li {
+  transition: 0.2s;
+}
+
+.navbar > ul > li:hover {
+  transform: scale(1.1);
+  transition: 0.1s;
 }

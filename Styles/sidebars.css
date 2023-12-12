@@ -8,6 +8,7 @@ aside {
   background-color: #bc4749;
   align-items: center;
   gap: 20px;
+  border-left: 2px solid black;
 }
 
 aside > h1 {
